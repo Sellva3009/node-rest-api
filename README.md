@@ -9,6 +9,3 @@ customize the package.json with start the nodemon index.js
 creating index.js
  - import required dependencies and start the server in the port
  - 
-
- sellva3009
- socialdemo
