@@ -6,6 +6,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const userRoute = require('./routes/users');
 const authRoute = require("./routes/auth");
+const postRoute = require("./routes/posts");
 
 // Intiate the app with express
 const app = express();
@@ -23,6 +24,7 @@ app.use(morgan('common'));
 
 app.use('/api/users', userRoute);
 app.use("/api/auth", authRoute);
+app.use("/api/posts", postRoute);
 
 // app is listening in the port 8800
 app.listen(8800, () => {
