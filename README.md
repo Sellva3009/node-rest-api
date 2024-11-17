@@ -3,6 +3,7 @@ Creating a api using node
 Steps used in this project
 
 Initiate the project by running npm init and it creates package.json where we will add dependencies.
+<<<<<<< HEAD
 
 Adding required dependencies by running the command - npm add express mongoose dotenv helmet morgan nodemon
 
@@ -23,3 +24,5 @@ Connected postman for the data to be entered and checked
 
 Adding "bcrypt" dependencies for the password encryption
 
+=======
+>>>>>>> ee9dfab9e875de5ff43d51483ce89a1f00fb992c
