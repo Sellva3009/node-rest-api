@@ -25,4 +25,4 @@ Connected postman for the data to be entered and checked
 Adding "bcrypt" dependencies for the password encryption
 
 =======
->>>>>>> ee9dfab9e875de5ff43d51483ce89a1f00fb992c
+>>>>>>>
